@@ -1,3 +1,4 @@
+import { ConfiguracaoPage } from './../configuracao/configuracao';
 import { Component } from '@angular/core';
 
 import { HomePage } from '../home/home';
@@ -10,6 +11,7 @@ export class TabsPage {
 
   tab1Root = HomePage;
   tab4Root = FeedPage;
+  tab5Root = ConfiguracaoPage;
 
   constructor() {
 
